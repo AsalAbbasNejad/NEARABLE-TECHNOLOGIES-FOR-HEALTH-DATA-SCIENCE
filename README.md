@@ -1,3 +1,5 @@
+# NEARABLE-TECHNOLOGIES-FOR-HEALTH-DATA-SCIENCE
+
 This project develops a non-invasive **remote photoplethysmography (rPPG)** system for estimating heart rate from standard RGB video. The system focuses on improving robustness against motion artifacts using head pose estimation, dense optical flow motion analysis, and frequency-domain motion artifact cancellation.
 
 The estimated rPPG heart rate is validated against a **CMS50D pulse oximeter**, which provides wearable PPG ground-truth heart rate, SpO2, and pulse waveform data.
