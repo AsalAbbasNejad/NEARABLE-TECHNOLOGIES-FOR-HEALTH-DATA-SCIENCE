@@ -292,6 +292,3 @@ The project can be extended toward:
 └── docs/
 ```
 
-## Authors
-
-This project was developed as part of an IoMT / biomedical signal processing project focused on robust rPPG monitoring and wearable PPG validation.
