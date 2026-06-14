@@ -1,4 +1,4 @@
-# Robust Nearable rPPG Monitoring with CMS50D Validation
+# NEARABLE TECHNOLOGIES FOR HEALTH DATA SCIENCE
 
 ## Project Overview
 
