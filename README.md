@@ -566,8 +566,8 @@ The framework computes several evaluation metrics.
 - Clinical Pass/Fail
 
 <p align="center">
-  <img src="figures/gt_vs_rppg.png" width="420">
-  <img src="figures/bland_altman.png" width="420">
+  <img width="522" height="445" alt="image" src="https://github.com/user-attachments/assets/48116834-dcd5-4f8c-9480-ed35def1e75e" />
+  <img width="512" height="462" alt="image" src="https://github.com/user-attachments/assets/225a787c-c8f9-4208-9bc2-c04c77360010" />
 </p>
 
 <p align="center">
