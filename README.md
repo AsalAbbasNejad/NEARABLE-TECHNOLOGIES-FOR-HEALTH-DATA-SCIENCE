@@ -322,7 +322,7 @@ HR = f_{peak}\times60
 ```
 
 <p align="center">
-  <img src="figures/fft_comparison.png" width="850">
+ <img width="1472" height="595" alt="image" src="https://github.com/user-attachments/assets/89c76c27-8a60-46e7-9e27-e1cf8a006561" />
 </p>
 
 <p align="center">
