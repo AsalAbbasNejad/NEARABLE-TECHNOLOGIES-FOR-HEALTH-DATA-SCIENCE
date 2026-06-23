@@ -433,7 +433,7 @@ The final respiratory estimate combines:
 - Cross-method agreement
 
 <p align="center">
-  <img src="figures/tachogram.png" width="800">
+ <img width="1678" height="457" alt="image" src="https://github.com/user-attachments/assets/3e2f0df2-5adc-4fd5-b7da-5dd930d4fb11" />
 </p>
 
 <p align="center">
