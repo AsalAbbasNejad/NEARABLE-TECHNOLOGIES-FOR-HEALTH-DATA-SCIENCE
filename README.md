@@ -100,10 +100,6 @@ The subject performs combined horizontal and vertical head movements.
 
 # ⚙️ System Architecture
 
-<p align="center">
-<b>Figure 1.</b> Overall architecture of the proposed adaptive rPPG framework.
-</p>
-
 ```text
 RGB Video
       ↓
@@ -128,6 +124,9 @@ Respiratory Rate Estimation
 CMS50D Validation
 ```
 
+<p align="center">
+<b>Figure 1.</b> Overall architecture of the proposed adaptive rPPG framework.
+</p>
 ---
 
 # 📂 Repository Structure
