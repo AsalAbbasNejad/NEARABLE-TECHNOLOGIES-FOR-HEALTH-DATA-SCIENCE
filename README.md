@@ -198,6 +198,7 @@ The selected motion class determines which adaptive correction rules are activat
 <p align="center">
 <b>Figure 3.</b> Representative zigzag motion classification.
 </p>
+
 ---
 
 # 🎭 Multi-ROI Extraction
