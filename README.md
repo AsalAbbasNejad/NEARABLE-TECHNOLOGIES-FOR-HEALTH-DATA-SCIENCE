@@ -437,11 +437,11 @@ The final respiratory estimate combines:
 </p>
 
 <p align="center">
-
+<b>Figure 6.</b> Tachogram generated from beat-to-beat intervals.
 </p>
 
 <p align="center">
-  <img src="figures/respiratory_psd.png" width="800">
+<img width="495" height="176" alt="image" src="https://github.com/user-attachments/assets/840af977-38d4-451a-8f1b-9b9fac91a118" />
 </p>
 
 <p align="center">
