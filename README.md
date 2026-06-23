@@ -194,11 +194,11 @@ The selected motion class determines which adaptive correction rules are activat
 <p align="center">
   <img src="figures/motion_classification.png" width="750">
 </p>
+<img width="272" height="60" alt="image" src="https://github.com/user-attachments/assets/8e5d699f-ad46-4db6-b0f2-14e767b5af4e" />
 
 <p align="center">
 <b>Figure 3.</b> Representative zigzag motion classification.
 </p>
-
 ---
 
 # 🎭 Multi-ROI Extraction
