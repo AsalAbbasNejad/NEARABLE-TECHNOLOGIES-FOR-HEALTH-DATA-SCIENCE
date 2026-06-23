@@ -13,11 +13,11 @@
 
 # 📖 Overview
 
-This project presents a robust remote photoplethysmography (rPPG) framework for contactless physiological monitoring using conventional RGB cameras.
+This project presents a robust remote photoplethysmography (rPPG) framework for contactless physiological monitoring using conventional RGB cameras and synchronized CMS50D pulse oximeter measurements.
 
-The proposed system estimates physiological parameters from facial videos and validates all measurements using a synchronized CMS50D pulse oximeter.
+The proposed framework estimates physiological parameters directly from facial videos while maintaining robustness under realistic acquisition conditions, including different head movements and motion artifacts.
 
-The framework is designed to operate under realistic conditions, including different head movements and motion artifacts. To improve robustness, the system automatically classifies head motion and dynamically adapts the signal-processing pipeline according to the detected motion pattern.
+The system automatically classifies head motion patterns and dynamically adapts the signal-processing pipeline according to the detected motion scenario.
 
 The proposed framework estimates:
 
@@ -70,7 +70,7 @@ Three motion paradigms were considered.
 </p>
 
 <p align="center">
-<b>Figure 1.</b> Experimental motion paradigms: stable baseline, left-right rotation, and zigzag motion.
+<b>Figure 1.</b> Experimental motion paradigms used during data acquisition.
 </p>
 
 ## 1. Stable Baseline
@@ -78,7 +78,6 @@ Three motion paradigms were considered.
 The subject remains stationary and directly faces the camera.
 
 **Purpose**
-
 - Establish ideal acquisition conditions
 - Determine upper-bound performance
 - Measure baseline signal quality
@@ -90,7 +89,6 @@ The subject remains stationary and directly faces the camera.
 The subject continuously performs horizontal head rotations.
 
 **Purpose**
-
 - Introduce ROI displacement
 - Generate moderate motion artifacts
 - Evaluate tracking robustness
@@ -102,7 +100,6 @@ The subject continuously performs horizontal head rotations.
 The subject performs combined horizontal and vertical head movements.
 
 **Purpose**
-
 - Create a challenging motion scenario
 - Stress-test signal robustness
 - Evaluate adaptive routing performance
@@ -141,3 +138,90 @@ Tachogram Construction
 Respiratory Rate Estimation
       ↓
 CMS50D Validation
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+project/
+
+├── offline_pipeline/
+│   ├── motion_classifier.py
+│   ├── roi_extraction.py
+│   ├── pos_algorithm.py
+│   ├── hr_estimation.py
+│   ├── rr_estimation.py
+│   └── evaluation.py
+│
+├── live_pipeline/
+│   ├── webcam_acquisition.py
+│   ├── cms50d_reader.py
+│   ├── rolling_buffer.py
+│   ├── live_hr_estimation.py
+│   └── live_rr_estimation.py
+│
+├── figures/
+├── results/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🧠 Head Motion Classification
+
+The framework automatically classifies head motion before physiological estimation.
+
+The facial center is tracked over time and several motion descriptors are extracted:
+
+- Horizontal amplitude
+- Vertical amplitude
+- Total displacement
+- Direction changes
+- Path length
+- Motion ratios
+
+The recording is then classified into one of the following categories:
+
+- Stable
+- Left-Right
+- Zigzag
+
+The selected motion class determines which adaptive correction rules are activated during physiological estimation.
+
+<p align="center">
+  <img src="figures/motion_classification.png" width="750">
+</p>
+
+<p align="center">
+<b>Figure 3.</b> Representative zigzag motion classification.
+</p>
+
+---
+
+# 🎭 Multi-ROI Extraction
+
+Three facial skin regions are extracted:
+
+- Forehead
+- Left Cheek
+- Right Cheek
+
+The average RGB value from all ROIs is used as the physiological signal.
+
+Using multiple skin regions improves robustness against:
+
+- Illumination changes
+- Motion corruption
+- Partial occlusions
+- Tracking inaccuracies
+
+<p align="center">
+  <img src="figures/multi_roi.png" width="550">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Forehead and cheek regions used for RGB signal extraction.
+</p>
