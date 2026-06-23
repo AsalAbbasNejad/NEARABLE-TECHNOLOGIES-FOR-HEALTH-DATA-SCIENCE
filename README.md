@@ -218,7 +218,7 @@ Using multiple skin regions improves robustness against:
 - Tracking inaccuracies
 
 <p align="center">
-  <img src="figures/multi_roi.png" width="550">
+ <img width="522" height="472" alt="image" src="https://github.com/user-attachments/assets/68f95d1f-1618-4196-bd7c-53b5d7ec83ae" />
 </p>
 
 <p align="center">
