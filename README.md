@@ -65,14 +65,6 @@ The goal of this project is to design a robust nearable monitoring system capabl
 
 Three motion paradigms were considered.
 
-<p align="center">
-  <img src="figures/motion_protocols.png" width="900">
-</p>
-
-<p align="center">
-<b>Figure 1.</b> Experimental motion paradigms used during data acquisition.
-</p>
-
 ## 1. Stable Baseline
 
 The subject remains stationary and directly faces the camera.
@@ -109,11 +101,7 @@ The subject performs combined horizontal and vertical head movements.
 # ⚙️ System Architecture
 
 <p align="center">
-  <img src="figures/system_architecture.png" width="850">
-</p>
-
-<p align="center">
-<b>Figure 2.</b> Overall architecture of the proposed adaptive rPPG framework.
+<b>Figure 1.</b> Overall architecture of the proposed adaptive rPPG framework.
 </p>
 
 ```text
@@ -196,7 +184,7 @@ The selected motion class determines which adaptive correction rules are activat
 </p>
 
 <p align="center">
-<b>Figure 3.</b> Representative zigzag motion classification.
+<b>Figure 2.</b> Representative zigzag motion classification.
 </p>
 
 ---
@@ -223,7 +211,7 @@ Using multiple skin regions improves robustness against:
 </p>
 
 <p align="center">
-<b>Figure 4.</b> Forehead and cheek regions used for RGB signal extraction.
+<b>Figure 3.</b> Forehead and cheek regions used for RGB signal extraction.
 </p>
 
 ---
@@ -326,7 +314,7 @@ HR = f_{peak}\times60
 </p>
 
 <p align="center">
-<b>Figure 5.</b> Smart FFT spectrum comparison between Green and POS estimators.
+<b>Figure 4.</b> Smart FFT spectrum comparison between Green and POS estimators.
 </p>
 
 Representative Zigzag example:
@@ -437,7 +425,7 @@ The final respiratory estimate combines:
 </p>
 
 <p align="center">
-<b>Figure 6.</b> Tachogram generated from beat-to-beat intervals.
+<b>Figure 5.</b> Tachogram generated from beat-to-beat intervals.
 </p>
 
 <p align="center">
@@ -445,7 +433,7 @@ The final respiratory estimate combines:
 </p>
 
 <p align="center">
-<b>Figure 7.</b> Respiratory PSD showing the dominant breathing frequency.
+<b>Figure 6.</b> Respiratory PSD showing the dominant breathing frequency.
 </p>
 
 Representative Zigzag example:
@@ -536,7 +524,7 @@ CMS50D Validation
 </p>
 
 <p align="center">
-<b>Figure 8.</b> Real-time physiological monitoring interface.
+<b>Figure 7.</b> Real-time physiological monitoring interface.
 </p>
 
 ---
@@ -571,7 +559,7 @@ The framework computes several evaluation metrics.
 </p>
 
 <p align="center">
-<b>Figure 9.</b> Comparison between CMS50D reference measurements and estimated heart rate.
+<b>Figure 8.</b> Comparison between CMS50D reference measurements and estimated heart rate.
 </p>
 
 ---
