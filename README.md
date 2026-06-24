@@ -94,8 +94,6 @@ The subject performs combined horizontal and vertical head movements.
 - Stress-test signal robustness
 - Evaluate adaptive routing performance
 
----
-
 # System Architecture
 
 ```text
