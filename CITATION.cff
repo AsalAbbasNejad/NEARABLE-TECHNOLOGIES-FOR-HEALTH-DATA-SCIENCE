@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: NEARABLE TECHNOLOGIES FOR HEALTH DATA SCIENCE
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Zamani
+    name-particle: Mohammadreza
+    email: mohammadreza.zamani@mail.polimi.it
+    affiliation: Politecnico di Milano
+  - family-names: Abbas Nejad Fard
+    name-particle: Asal
+    email: asal.abbas@mail.polimi.it
+  - family-names: Ravi
+    name-particle: Mohanesh
+    email: mohanesh.ravi@mail.polimi.it
+repository-code: >-
+  https://github.com/mrzamaniiii/NEARABLE-TECHNOLOGIES-FOR-HEALTH-DATA-SCIENCE/tree/main
+abstract: >-
+  This project presents a robust remote photoplethysmography
+  (rPPG) framework for contactless physiological monitoring
+  using conventional RGB cameras and synchronized CMS50D
+  pulse oximeter measurements.
+license: MIT
+version: 1.0.0
+date-released: '2026-06-24'
