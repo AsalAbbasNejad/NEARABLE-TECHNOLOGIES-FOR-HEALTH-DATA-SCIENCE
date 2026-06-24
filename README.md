@@ -5,7 +5,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-orange)
 ![SciPy](https://img.shields.io/badge/SciPy-Signal%20Processing-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
