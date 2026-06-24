@@ -29,7 +29,7 @@ The proposed framework estimates:
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 The main objectives of this project are:
 
@@ -43,7 +43,7 @@ The main objectives of this project are:
 
 ---
 
-# 🧠 Motivation
+# Motivation
 
 Traditional physiological monitoring systems require physical contact with the body and may become uncomfortable during long monitoring sessions.
 
@@ -61,7 +61,7 @@ The goal of this project is to design a robust nearable monitoring system capabl
 
 ---
 
-# 🧪 Experimental Protocol
+# Experimental Protocol
 
 Three motion paradigms were considered.
 
@@ -98,7 +98,7 @@ The subject performs combined horizontal and vertical head movements.
 
 ---
 
-# ⚙️ System Architecture
+# System Architecture
 
 ```text
 RGB Video
@@ -129,7 +129,7 @@ CMS50D Validation
 </p>
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 project/
@@ -155,9 +155,7 @@ project/
 └── README.md
 ```
 
----
-
-# 🧠 Head Motion Classification
+# Head Motion Classification
 
 The framework automatically classifies head motion before physiological estimation.
 
@@ -188,7 +186,7 @@ The selected motion class determines which adaptive correction rules are activat
 
 ---
 
-# 🎭 Multi-ROI Extraction
+# Multi-ROI Extraction
 
 Three facial skin regions are extracted:
 
@@ -215,7 +213,7 @@ Using multiple skin regions improves robustness against:
 
 ---
 
-# 📈 Blood Volume Pulse (BVP) Extraction
+# Blood Volume Pulse (BVP) Extraction
 
 Two complementary rPPG approaches are employed.
 
@@ -265,7 +263,7 @@ Advantages:
 
 ---
 
-# 🔧 Signal Conditioning
+# Signal Conditioning
 
 The extracted signals are:
 
@@ -288,7 +286,7 @@ Filtering suppresses:
 
 ---
 
-# ❤️ Heart Rate Estimation
+# Heart Rate Estimation
 
 Heart-rate estimation consists of several stages.
 
@@ -385,7 +383,7 @@ Restores physiological frequencies suppressed by motion contamination.
 
 ---
 
-# 🌬️ Respiratory Rate Estimation
+# Respiratory Rate Estimation
 
 Respiratory information is recovered from heart-rate variability.
 
@@ -448,7 +446,7 @@ Representative Zigzag example:
 
 ---
 
-# 🌬️ Respiratory Sinus Arrhythmia (RSA)
+# Respiratory Sinus Arrhythmia (RSA)
 
 The respiratory component of heart-rate variability is isolated from the tachogram.
 
@@ -481,7 +479,7 @@ The offline implementation processes previously recorded videos.
 
 ---
 
-# 🎥 Live Pipeline
+# Live Pipeline
 
 The live implementation performs real-time physiological monitoring.
 
