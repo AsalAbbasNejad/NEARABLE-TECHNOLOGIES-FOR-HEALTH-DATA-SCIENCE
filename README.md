@@ -15,7 +15,7 @@
 
 This project presents a robust remote photoplethysmography (rPPG) framework for contactless physiological monitoring using conventional RGB cameras and synchronized CMS50D pulse oximeter measurements.
 
-The proposed framework estimates physiological parameters directly from facial videos while maintaining robustness under realistic acquisition conditions, including different head movements and motion artifacts.
+The proposed framework estimates physiological parameters directly from facial videos while maintaining robustness under realistic acquisition conditions, including different head movements.
 
 The system automatically classifies head motion patterns and dynamically adapts the signal-processing pipeline according to the detected motion scenario.
 
