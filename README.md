@@ -21,11 +21,11 @@ The system automatically classifies head motion patterns and dynamically adapts 
 
 The proposed framework estimates:
 
-- ❤️ Heart Rate (HR)
-- 🌬️ Respiratory Rate (RR)
-- 📈 Blood Volume Pulse (BVP)
-- 🎯 Motion Classification Confidence
-- 📊 Signal Quality Metrics
+- Heart Rate (HR)
+- Respiratory Rate (RR)
+- Blood Volume Pulse (BVP)
+- Motion Classification Confidence
+- Signal Quality Metrics
 
 ---
 
