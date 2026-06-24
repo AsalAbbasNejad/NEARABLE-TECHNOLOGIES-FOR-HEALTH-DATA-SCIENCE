@@ -458,7 +458,7 @@ RSA analysis provides insight into:
 
 ---
 
-# 💻 Offline Pipeline
+# Offline Pipeline
 
 The offline implementation processes previously recorded videos.
 
@@ -526,7 +526,7 @@ CMS50D Validation
 
 ---
 
-# 📊 Evaluation Metrics
+# Evaluation Metrics
 
 The framework computes several evaluation metrics.
 
@@ -561,7 +561,7 @@ The framework computes several evaluation metrics.
 
 ---
 
-# 🔍 Key Findings
+# Key Findings
 
 - Motion classification enables adaptive signal conditioning.
 - Multi-ROI extraction improves robustness.
@@ -572,7 +572,7 @@ The framework computes several evaluation metrics.
 
 ---
 
-# 🛠 Technologies
+# Technologies
 
 - Python
 - OpenCV
