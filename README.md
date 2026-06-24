@@ -568,7 +568,6 @@ The framework computes several evaluation metrics.
 - Pandas
 - Matplotlib
 - MediaPipe
-- Google Colab
 - CMS50D Pulse Oximeter
 
 
