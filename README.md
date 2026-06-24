@@ -58,7 +58,6 @@ However, rPPG signals are highly sensitive to:
 - Motion artifacts
 
 The goal of this project is to design a robust nearable monitoring system capable of operating reliably under realistic acquisition conditions.
-
 ---
 
 # Experimental Protocol
