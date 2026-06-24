@@ -1,8 +1,8 @@
 # =========================
 # Respiratory Rate Estimation from Tachogram
-# Append this block after the peak detection visualization
-# in your existing rPPG pipeline.
-#
+
+# This script should be appended as followed up cell after acquiring the pos_peaks from the HR estimation_together in a jupyter notebook
+
 # Method: HRV-Derived Respiration (HDR)
 # - Extracts R-R intervals from POS peaks
 # - Resamples to uniform time grid (cubic spline)
@@ -13,6 +13,7 @@
 
 from scipy.interpolate import CubicSpline
 from scipy.signal import welch, butter, filtfilt, hilbert
+import matplotlib.pyplot as plt
 
 
 # =========================
