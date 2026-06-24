@@ -11,7 +11,7 @@
 
 ---
 
-# 📖 Overview
+# Overview
 
 This project presents a robust remote photoplethysmography (rPPG) framework for contactless physiological monitoring using conventional RGB cameras and synchronized CMS50D pulse oximeter measurements.
 
