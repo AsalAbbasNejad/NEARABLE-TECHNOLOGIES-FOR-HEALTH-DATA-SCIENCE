@@ -202,15 +202,6 @@ Using multiple skin regions improves robustness against:
 - Motion corruption
 - Partial occlusions
 - Tracking inaccuracies
-
-<p align="center">
- <img width="522" height="472" alt="image" src="https://github.com/user-attachments/assets/68f95d1f-1618-4196-bd7c-53b5d7ec83ae" />
-</p>
-
-<p align="center">
-<b>Figure 3.</b> Forehead and cheek regions used for RGB signal extraction.
-</p>
-
 ---
 
 # Blood Volume Pulse (BVP) Extraction
