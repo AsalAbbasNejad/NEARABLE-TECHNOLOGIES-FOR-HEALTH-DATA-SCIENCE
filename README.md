@@ -349,7 +349,7 @@ HR = f_{peak}\times60
 </p>
 
 <p align="center">
-<b>Figure 4.</b> Smart FFT spectrum comparison between Green and POS estimators.
+<b>Figure 2.</b> Smart FFT spectrum comparison between Green and POS estimators.
 </p>
 
 Representative Zigzag example:
