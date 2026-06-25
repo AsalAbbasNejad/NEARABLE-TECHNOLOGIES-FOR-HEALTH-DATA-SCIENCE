@@ -28,6 +28,14 @@ The proposed framework estimates:
 
 ---
 
+# Main Scripts
+
+| Purpose | File |
+|---|---|
+| Live rPPG acquisition with CMS50D validation and motion-segment HR output | `live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py` |
+| Offline rPPG processing and evaluation | `offline_codes/final_with_RR_n_metrics.py` |
+| Development and legacy notebooks | `archive/` |
+
 # Project Objectives
 
 The main objectives of this project are:
