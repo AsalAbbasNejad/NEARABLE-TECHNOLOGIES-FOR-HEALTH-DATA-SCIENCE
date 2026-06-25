@@ -583,12 +583,12 @@ The framework computes several evaluation metrics.
 - Clinical Pass/Fail
 
 <p align="center">
-  <img width="522" height="445" alt="image" src="https://github.com/user-attachments/assets/48116834-dcd5-4f8c-9480-ed35def1e75e" />
-  <img width="512" height="462" alt="image" src="https://github.com/user-attachments/assets/225a787c-c8f9-4208-9bc2-c04c77360010" />
+  <img width="482" height="405" alt="image" src="https://github.com/user-attachments/assets/48116834-dcd5-4f8c-9480-ed35def1e75e" />
+  <img width="472" height="422" alt="image" src="https://github.com/user-attachments/assets/225a787c-c8f9-4208-9bc2-c04c77360010" />
 </p>
 
 <p align="center">
-<b>Figure 8.</b> Comparison between CMS50D reference measurements and estimated heart rate.
+<b>Figure 5.</b> Comparison between CMS50D reference measurements and estimated heart rate.
 </p>
 
 ---
