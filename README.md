@@ -609,9 +609,17 @@ The framework computes several evaluation metrics.
 - Tachogram analysis enables respiratory-rate estimation.
 - The framework maintains clinically meaningful physiological estimates even under Zigzag motion.
 - The representative Zigzag recording achieved an MAE of 2.15 BPM and an RR estimate of 10.9 breaths/min.
-
 ---
 
+# Limitations
+
+- The live pipeline requires local execution because webcam and CMS50D serial-port access are not available in standard cloud runtimes.
+- rPPG performance depends on lighting conditions, face visibility, camera quality, and motion intensity.
+- The respiratory-rate estimate is derived from the POS tachogram and requires a sufficient number of detected pulse peaks.
+- The current implementation is optimized for controlled academic demonstrations and short experimental recordings.
+- The heart-rate search range is currently limited to the configured physiological band used in the experiments.
+
+  
 # Technologies
 
 - Python
