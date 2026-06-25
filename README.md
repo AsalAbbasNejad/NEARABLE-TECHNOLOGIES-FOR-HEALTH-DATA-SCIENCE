@@ -47,7 +47,7 @@ The proposed framework estimates:
 The recommended script for the final live demonstration is:
 
 ```bash
-python live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py
+python live codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py
 ````
 
 # Project Objectives
