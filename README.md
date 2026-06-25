@@ -59,9 +59,7 @@ The main objectives of this project are:
 
 # Motivation
 
-Traditional physiological monitoring systems require physical contact with the body and may become uncomfortable during long monitoring sessions.
-
-Remote photoplethysmography (rPPG) provides a non-contact alternative by extracting subtle skin color variations produced by blood circulation.
+Traditional physiological monitoring systems require physical contact with the body and may become uncomfortable during long monitoring sessions. Remote photoplethysmography (rPPG) provides a non-contact alternative by extracting subtle skin color variations produced by blood circulation.
 
 However, rPPG signals are highly sensitive to:
 
