@@ -31,8 +31,8 @@ The proposed framework estimates:
 
 | Purpose | File |
 |---|---|
-| Live webcam acquisition, CMS50D synchronization, motion-aware rPPG estimation, motion-segment HR output, and post-recording metrics | `live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py` |
-| Offline rPPG processing, respiratory-rate estimation, and metric evaluation from recorded videos | `offline_codes/final_with_RR_n_metrics.py` |
+| Live webcam acquisition, CMS50D synchronization, motion-aware rPPG estimation, motion-segment HR output, and post-recording metrics | `live codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py` |
+| Offline rPPG processing, respiratory-rate estimation, and metric evaluation from recorded videos | `offline codes/final_with_RR_n_metrics.py` |
 | Development notebooks and earlier experimental versions | `archive/` |
 | GUI/demo material | `gui/` |
 | Presentation material | `Presentation/` |
