@@ -8,6 +8,11 @@
 ![SciPy](https://img.shields.io/badge/SciPy-Signal%20Processing-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
+```markdown
+This repository contains the final implementation of a nearable rPPG monitoring system developed for the Laboratory of Nearable Technologies for Health Data Science. The system estimates heart rate from RGB facial videos, validates the results against synchronized CMS50D wearable pulse oximeter measurements, and adapts the live analysis according to detected head-motion patterns.
+
+The project includes both offline video analysis and live webcam-based acquisition with synchronized physiological logging.
+```
 ---
 
 # Overview
@@ -27,14 +32,23 @@ The proposed framework estimates:
 - Signal Quality Metrics
 
 ---
+````markdown
 
 # Main Scripts
 
 | Purpose | File |
 |---|---|
-| Live rPPG acquisition with CMS50D validation and motion-segment HR output | `live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py` |
-| Offline rPPG processing and evaluation | `offline_codes/final_with_RR_n_metrics.py` |
-| Development and legacy notebooks | `archive/` |
+| Live webcam acquisition, CMS50D synchronization, motion-aware rPPG estimation, motion-segment HR output, and post-recording metrics | `live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py` |
+| Offline rPPG processing, respiratory-rate estimation, and metric evaluation from recorded videos | `offline_codes/final_with_RR_n_metrics.py` |
+| Development notebooks and earlier experimental versions | `archive/` |
+| GUI/demo material | `gui/` |
+| Presentation material | `Presentation/` |
+
+The recommended script for the final live demonstration is:
+
+```bash
+python live_codes/live_rppg_cms50d_2min_motion_segment_with_metrics.py
+````
 
 # Project Objectives
 
