@@ -134,10 +134,6 @@ Respiratory Rate Estimation
 CMS50D Validation
 ```
 
-<p align="center">
-<b>Figure 1.</b> Overall architecture of the proposed adaptive rPPG framework.
-</p>
-
 # Repository Structure
 
 ```text
