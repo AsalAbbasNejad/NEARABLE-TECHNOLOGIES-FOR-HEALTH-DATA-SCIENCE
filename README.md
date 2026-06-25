@@ -460,7 +460,7 @@ The final respiratory estimate combines:
 </p>
 
 <p align="center">
-<b>Figure 5.</b> Tachogram generated from beat-to-beat intervals.
+<b>Figure 3.</b> Tachogram generated from beat-to-beat intervals.
 </p>
 
 <p align="center">
@@ -468,7 +468,7 @@ The final respiratory estimate combines:
 </p>
 
 <p align="center">
-<b>Figure 6.</b> Respiratory PSD showing the dominant breathing frequency.
+<b>Figure 4.</b> Respiratory PSD showing the dominant breathing frequency.
 </p>
 
 Representative Zigzag example:
