@@ -8,11 +8,8 @@
 ![SciPy](https://img.shields.io/badge/SciPy-Signal%20Processing-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-```markdown
 This repository contains the final implementation of a nearable rPPG monitoring system developed for the Laboratory of Nearable Technologies for Health Data Science. The system estimates heart rate from RGB facial videos, validates the results against synchronized CMS50D wearable pulse oximeter measurements, and adapts the live analysis according to detected head-motion patterns.
 
-The project includes both offline video analysis and live webcam-based acquisition with synchronized physiological logging.
-```
 ---
 
 # Overview
@@ -173,6 +170,19 @@ NEARABLE-TECHNOLOGIES-FOR-HEALTH-DATA-SCIENCE/
 ├── CITATION.cff
 └── .gitignore
 ```
+
+# How to Run
+
+## Live Pipeline
+
+Before running the live script, connect the CMS50D pulse oximeter and check the active COM port.
+
+Open the live script and update the configuration section if needed:
+
+```python
+CMS50D_PORT = "COM5"
+WEBCAM_INDEX = 0
+
 
 # Head Motion Classification
 
