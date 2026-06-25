@@ -184,7 +184,6 @@ CMS50D_PORT = "COM5"
 WEBCAM_INDEX = 0
 ```
 
-```markdown
 # Outputs
 
 The live pipeline generates several output files during and after recording:
