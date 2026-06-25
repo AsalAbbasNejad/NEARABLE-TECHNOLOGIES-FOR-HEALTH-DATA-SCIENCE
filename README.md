@@ -312,7 +312,7 @@ The extracted signals are:
 Heart-rate search range:
 
 ```text
-60–90 BPM
+60–100 BPM
 ```
 
 Filtering suppresses:
