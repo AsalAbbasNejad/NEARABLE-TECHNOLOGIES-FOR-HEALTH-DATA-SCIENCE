@@ -32,8 +32,6 @@ The proposed framework estimates:
 - Signal Quality Metrics
 
 ---
-````markdown
-
 # Main Scripts
 
 | Purpose | File |
@@ -147,9 +145,6 @@ CMS50D Validation
 <b>Figure 1.</b> Overall architecture of the proposed adaptive rPPG framework.
 </p>
 
-
-:::writing{variant="standard" id="30495"}
-```markdown
 # Repository Structure
 
 ```text
