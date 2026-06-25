@@ -148,30 +148,35 @@ CMS50D Validation
 </p>
 
 
+:::writing{variant="standard" id="30495"}
+```markdown
 # Repository Structure
 
 ```text
-project/
-
-├── offline_pipeline/
-│   ├── motion_classifier.py
-│   ├── roi_extraction.py
-│   ├── pos_algorithm.py
-│   ├── hr_estimation.py
-│   ├── rr_estimation.py
-│   └── evaluation.py
+NEARABLE-TECHNOLOGIES-FOR-HEALTH-DATA-SCIENCE/
 │
-├── live_pipeline/
-│   ├── webcam_acquisition.py
-│   ├── cms50d_reader.py
-│   ├── rolling_buffer.py
-│   ├── live_hr_estimation.py
-│   └── live_rr_estimation.py
+├── live_codes/
+│   ├── live_rppg_cms50d_2min_motion_segment_with_metrics.py
+│   └── live_rppg_cms50d_original_settings_with_metrics.py
 │
-├── figures/
-├── results/
+├── offline_codes/
+│   ├── final_with_RR_n_metrics.py
+│   └── final_with_RR_n_metrics.ipynb
+│
+├── GUI/
+│   └── GUI-related files and prototypes
+│
+├── Presentation/
+│   └── presentation material
+│
+├── archive/
+│   └── development notebooks, early scripts, and experimental versions
+│
+├── README.md
 ├── requirements.txt
-└── README.md
+├── LICENSE
+├── CITATION.cff
+└── .gitignore
 ```
 
 # Head Motion Classification
