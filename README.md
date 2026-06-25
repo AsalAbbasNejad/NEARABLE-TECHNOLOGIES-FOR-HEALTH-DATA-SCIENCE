@@ -527,20 +527,21 @@ The offline implementation processes previously recorded videos.
 
 # Live Pipeline
 
-The live implementation performs real-time physiological monitoring.
+The live implementation performs real-time physiological monitoring using a webcam and the CMS50D pulse oximeter.
 
 ### Inputs
 
-- Webcam
-- CMS50D Pulse Oximeter
+- Webcam video stream
+- CMS50D pulse oximeter connected through a serial COM port
 
 ### Outputs
 
-- Live Heart Rate
-- Live Respiratory Rate
-- Motion Classification
-- Signal Quality Indicators
-- Synchronized CSV Logging
+- Live rPPG heart rate
+- Live motion classification
+- Motion-segment heart-rate summary
+- CMS50D heart rate and SpO2 logging
+- Synchronized CSV file
+- Post-recording evaluation metrics
 
 Pipeline:
 
@@ -549,7 +550,9 @@ Webcam
     ↓
 Face Detection
     ↓
-Multi-ROI Extraction
+One-Box Face Preview
+    ↓
+Central RGB Signal Extraction
     ↓
 Rolling Buffer
     ↓
@@ -557,20 +560,11 @@ Green + POS Signals
     ↓
 Live HR Estimation
     ↓
-Live RR Estimation
+Motion-Segment Summary
     ↓
 CMS50D Validation
-```
-
-<p align="center">
-  <img src="figures/live_demo.png" width="750">
-</p>
-
-<p align="center">
-<b>Figure 7.</b> Real-time physiological monitoring interface.
-</p>
-
 ---
+```
 
 # Evaluation Metrics
 
@@ -626,7 +620,10 @@ The framework computes several evaluation metrics.
 - SciPy
 - Pandas
 - Matplotlib
-- MediaPipe
+- PySerial
 - CMS50D Pulse Oximeter
 
+Optional / development tools:
 
+- Jupyter Notebook
+- Gradio or Streamlit for GUI prototyping
