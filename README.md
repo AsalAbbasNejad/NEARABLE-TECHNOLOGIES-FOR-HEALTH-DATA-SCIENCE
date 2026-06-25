@@ -224,11 +224,10 @@ The recording is then classified into one of the following categories:
 The selected motion class determines which adaptive correction rules are activated during physiological estimation.
 
 <p align="center">
-<img width="1650" height="300" alt="photo_2026-06-25_21-16-46" src="https://github.com/user-attachments/assets/c5f4a41b-aad3-4111-b8db-7919a6b77400" />
+<img width="1400" height="250" alt="photo_2026-06-25_21-16-46" src="https://github.com/user-attachments/assets/c5f4a41b-aad3-4111-b8db-7919a6b77400" />
 </p>
 
 <p align="center">
-<b>Figure 1![Uploading photo_2026-06-25_21-16-46.jpg…]()
 .</b> Representative zigzag motion classification.
 </p>
 
