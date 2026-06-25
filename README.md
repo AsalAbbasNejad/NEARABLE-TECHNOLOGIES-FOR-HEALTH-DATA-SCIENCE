@@ -566,13 +566,11 @@ The framework computes several evaluation metrics.
 
 - Signed Error
 - MAE
-- RMSE
 - MAPE
 
 ## Statistical Analysis
 
 - Pearson Correlation
-- Spearman Correlation
 - Bland-Altman Bias
 - Limits of Agreement
 
@@ -583,8 +581,9 @@ The framework computes several evaluation metrics.
 - Clinical Pass/Fail
 
 <p align="center">
-  <img width="482" height="405" alt="image" src="https://github.com/user-attachments/assets/48116834-dcd5-4f8c-9480-ed35def1e75e" />
-  <img width="472" height="422" alt="image" src="https://github.com/user-attachments/assets/225a787c-c8f9-4208-9bc2-c04c77360010" />
+  <img width="2100" height="1800" alt="1_rppg_vs_gt_correlation" src="https://github.com/user-attachments/assets/f63ad91e-6125-4cd3-b5f2-cf5870e08efd" />
+  <img width="2400" height="1800" alt="2_rppg_bland_altman" src="https://github.com/user-attachments/assets/6f35a0c7-f261-4e0c-8766-33de2ece3e65" />
+
 </p>
 
 <p align="center">
