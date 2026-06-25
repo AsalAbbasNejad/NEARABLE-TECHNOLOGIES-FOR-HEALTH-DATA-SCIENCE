@@ -182,7 +182,34 @@ Open the live script and update the configuration section if needed:
 ```python
 CMS50D_PORT = "COM5"
 WEBCAM_INDEX = 0
+```
 
+```markdown
+# Outputs
+
+The live pipeline generates several output files during and after recording:
+
+| Output | Description |
+|---|---|
+| `.avi` video | Raw webcam video saved without overlay graphics to preserve rPPG pixels |
+| synchronized `.csv` file | Frame-level CMS50D and live rPPG measurements |
+| motion-segment summary `.csv` | Final HR value for each detected motion segment |
+| metric summary `.csv` | Overall HR error metrics and validation results |
+| evaluation dashboard `.png` | Visual comparison between CMS50D reference and rPPG estimates |
+
+Important CSV columns include:
+
+- `CMS_Pulse_Rate_Hardware`
+- `CMS_SpO2`
+- `CMS_Waveform`
+- `Live_rPPG_HR`
+- `Live_Motion_Class`
+- `Motion_Segment_ID`
+- `Live_Green_FFT`
+- `Live_POS_FFT`
+- `Live_FS`
+
+For the final live demo, the most important output is the motion-segment summary, which provides one final heart-rate estimate for each detected motion condition.
 
 # Head Motion Classification
 
