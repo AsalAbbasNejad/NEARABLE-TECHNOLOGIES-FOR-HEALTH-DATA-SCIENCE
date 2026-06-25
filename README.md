@@ -241,22 +241,22 @@ The selected motion class determines which adaptive correction rules are activat
 
 ---
 
-# Multi-ROI Extraction
+# ROI Extraction
 
-Three facial skin regions are extracted:
+The framework uses facial regions to extract RGB traces related to blood-volume changes.
+
+In the offline pipeline, multiple facial skin ROIs are used:
 
 - Forehead
-- Left Cheek
-- Right Cheek
+- Left cheek
+- Right cheek
 
-The average RGB value from all ROIs is used as the physiological signal.
+The average RGB values from these regions are combined to improve robustness against local illumination changes, partial occlusion, and tracking inaccuracies.
 
-Using multiple skin regions improves robustness against:
+In the live implementation, only one green face box is displayed in the preview to keep the interface simple and readable. Internally, a central skin-oriented crop inside the detected face box is used for RGB extraction, while the saved video remains raw and does not include the overlay box.
 
-- Illumination changes
-- Motion corruption
-- Partial occlusions
-- Tracking inaccuracies
+This design prevents graphical annotations from corrupting the pixels used later for rPPG analysis.
+
 ---
 
 # Blood Volume Pulse (BVP) Extraction
