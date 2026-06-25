@@ -393,7 +393,7 @@ The system automatically rejects inconsistent candidates and applies adaptive co
 
 ---
 
-# 🛠 Motion Artifact Correction
+# Motion Artifact Correction
 
 Several adaptive correction modules were developed.
 
